@@ -2,7 +2,6 @@ package com.adriandiaz.evc3;
 
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.MenuItem;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -48,13 +47,4 @@ public class MainActivity extends AppCompatActivity implements NavigationHost {
         return true;
     }
 
-    @Override public boolean onOptionsItemSelected(MenuItem opcion_menu){
-        int id=opcion_menu.getItemId();
-
-        if(id==R.id.cuenta){
-            return true;
-        }
-
-        return super.onOptionsItemSelected(opcion_menu);
-    }
 }

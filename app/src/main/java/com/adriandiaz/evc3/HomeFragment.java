@@ -17,6 +17,7 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.adriandiaz.evc3.network.ExerciseEntry;
+import com.google.android.material.button.MaterialButton;
 
 public class HomeFragment extends Fragment {
     @Override
@@ -27,8 +28,16 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView (@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.home_fragment, container, false);
+        MaterialButton loginButton = view.findViewById(R.id.btn_config);
 
         setUpToolbar(view);
+        loginButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((NavigationHost) getActivity()).navigateTo(new EditFragment(),true);
+            }
+        });
+
 
         RecyclerView recyclerView = view.findViewById(R.id.recycler_view);
         recyclerView.setHasFixedSize(true);
@@ -43,6 +52,7 @@ public class HomeFragment extends Fragment {
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
             view.findViewById(R.id.exercise_grid).setBackgroundResource(R.drawable.background_shape);
         }
+
         return view;
     }
 
