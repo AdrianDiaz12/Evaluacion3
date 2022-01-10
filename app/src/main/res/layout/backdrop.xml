@@ -32,9 +32,15 @@
         android:background="?attr/colorPrimary"
         />
     <com.google.android.material.button.MaterialButton
-        style="@style/Widget.EVC3.Button.TextButton"
+
+        android:id="@+id/btn_config"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/menu_exercise_account"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/Configuracion"
+        android:text="Cuenta"
+        android:textColor="@color/colorBtn"
         />
 </merge>

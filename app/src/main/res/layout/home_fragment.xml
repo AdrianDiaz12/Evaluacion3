@@ -33,6 +33,7 @@
 
             />
 
+
     </com.google.android.material.appbar.AppBarLayout>
     <androidx.core.widget.NestedScrollView
         android:id="@+id/exercise_grid"
