@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#ff7043</color>
+    <color name="purple_500">#ff7043</color>
+    <color name="purple_700">#ffa270</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#bdbdbd</color>
+    <color name="textColorPrimary">#000000</color>
+    <color name="ExerciseGridBackgroundColor">#FFFBFA</color>
+
+
+    <color name="primary">#E18AD4</color>
+    <color name="secondary">#ffa270</color>
+    <color name="night_mode">#D782BA</color>
+    <color name="notification">#E0EFDA</color>
+    <color name="private_account">#EEB1D5</color>
+    <color name="security">#D56AA0</color>
+    <color name="cloud_mode">#FF6200EE</color>
+    <color name="content_text">#212121</color>
+</resources>

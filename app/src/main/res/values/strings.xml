@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GYMNASIO EN CASA</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="cancel_button">Cancel</string>
+
+    <string name="login_error_message">La contraseña debe tener 6 caracteres</string>
+    <string name="cuenta_title">Cuenta</string>
+
+
+    <string name="excercise_title">Title</string>
+    <string name="menu_description">Este ejercicio tendra como minimo 6 repeticiones.</string>
+    <string name="menu_exercise_alimentacion">Alimentacion</string>
+    <string name="menu_exercise_Rutinas">Rutinas</string>
+
+    <string name="menu_exercise_recomendaciones">Recomendaciones</string>
+    <string name="menu_exercise_Recordatorio">Crear recordatorio</string>
+
+    <string name="menu_exercise_account">Account</string>
+
+    <string name="header_ajustes">Ajustes</string>
+</resources>
